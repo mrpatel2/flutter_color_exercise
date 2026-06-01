@@ -33,6 +33,8 @@ class _CounterPageState extends State<CounterPage> {
   Colors.orange,
   Colors.purple,
   Colors.teal,
+  Colors.lightBlue[200]!,
+  Colors.yellow,
 ];
 
   // TODO: Step 2 – Add a variable to track the current background color
