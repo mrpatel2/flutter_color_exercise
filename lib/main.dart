@@ -45,6 +45,7 @@ class _CounterPageState extends State<CounterPage> {
 
       // TODO: Step 3 – Update currentColor each time the counter increments
       // Hint: Use counter % colors.length to cycle through colors
+      currentColor = colors[counter % colors.length];
     });
   }
 
@@ -52,6 +53,7 @@ class _CounterPageState extends State<CounterPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       // TODO: Step 4 – Set backgroundColor of Scaffold to currentColor
+      backgroundColor: currentColor,
       appBar: AppBar(title: Text("Counter + Color Exercise")),
 
       body: Center(
