@@ -27,6 +27,15 @@ class _CounterPageState extends State<CounterPage> {
   // TODO: Step 1 – Create a list of at least 5 colors
   // Example: List<Color> colors = [Colors.red, Colors.blue, ...];
 
+  List<Color> colors = [
+  Colors.red,
+  Colors.blue,
+  Colors.green,
+  Colors.orange,
+  Colors.purple,
+  Colors.teal,
+];
+
   // TODO: Step 2 – Add a variable to track the current background color
   // Example: Color currentColor = Colors.white;
 
