@@ -62,6 +62,7 @@ class _CounterPageState extends State<CounterPage> {
           style: TextStyle(
             fontSize: 24,
             // TODO (Optional): Adjust text color for readability
+            color: currentColor.computeLuminance() < 0.5 ? Colors.white : Colors.black,
           ),
         ),
       ),
